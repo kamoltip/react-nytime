@@ -2,13 +2,13 @@ import React from 'react';
 
 const SearchPage = () =>
 <SearchPage>
-  <div class="container" style="background-color: white; border-style: solid; border-width: 1px;">
+  <div class="container">
 
-  <!-- Search Form -->
+{/* {input form} */}
   <div class="panel panel-default">
 
     <div class="panel-heading">
-      <h3 class="panel-title text-center" style="font-size: 20px;"><i><b>Search</b></i></h3>
+      <h3 class="panel-title text-center"><i><b>Search</b></i></h3>
     </div>
 
     <div class="panel-body text-center">
@@ -34,18 +34,18 @@ const SearchPage = () =>
       </form>
     </div>
   </div>
-  <!-- Results -->
+{/* {Results} */}
       <div class="panel panel-default">
 
         <div class="panel-heading">
-          <h3 class="panel-title text-center" style="font-size: 20px;"><i><b>Results</b></i></h3>
+          <h3 class="panel-title text-center"><i><b>Results</b></i></h3>
         </div>
       </div>
-  <!-- Saved Articles -->
+{/* {Saved Article} */}
       <div class="panel panel-default">
 
         <div class="panel-heading">
-            <h3 class="panel-title text-center" style="font-size: 20px;"><i><b>Saved Articles</b></i></h3>
+            <h3 class="panel-title text-center"><i><b>Saved Articles</b></i></h3>
         </div>
       </div>
 
